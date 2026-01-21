@@ -2,6 +2,10 @@
 
 ## Overview
 This project demonstrates how PowerShell activity can be monitored and analyzed using native Windows logging. The lab focuses on reviewing PowerShell Operational logs in Event Viewer and correlating PowerShell command execution with recorded events. Special attention is given to encoded PowerShell commands, which are commonly associated with obfuscated or suspicious activity.
+---
+
+## Summary
+Hands-on SOC-style lab showing how Windows PowerShell activity is logged and analyzed using native telemetry.
 
 ---
 
@@ -57,6 +61,10 @@ This screenshot highlights multiple PowerShell events generated immediately afte
 
 ### Screenshot 08 – Event Details Showing PowerShell Execution
 This screenshot displays the detailed event record for a PowerShell Operational log entry. The event details provide structured forensic evidence, including execution context and metadata, which is essential for SOC-level analysis and documentation.
+
+## Screenshots Location
+All screenshots referenced above are stored in the `screenshots/` directory of this repository. 
+To view any screenshot, navigate to the screenshots folder and click the image you want to open.
 
 
 ---
